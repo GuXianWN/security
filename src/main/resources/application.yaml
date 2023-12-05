@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          authing:
+            client-id: 656f0e8321b9f2bba9fbf9a7
+            client-secret: 75a86dd4199bdcf86f92333559a94375
+            redirect-uri: http://localhost:8080/callback
+            client-authentication-method: post
+            scope:
+              - openid
+              - profile
+        provider:
+          authing:
+            issuer-uri: https://uxrb8nkx6a3k-demo.authing.cn/oidc
+            user-name-attribute: preferred_username
+
