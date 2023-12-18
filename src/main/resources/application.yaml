@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: 120.48.24.105
+    port: 6379
+    password: qwdasgaerg
+    database: 0
